@@ -1,0 +1,28 @@
+# Allowlist: ignore everything by default, then un-ignore the published files.
+*
+
+# Published wordlist deliverables
+!.gitignore
+!README.md
+!LICENSE
+!LICENSE-MIT
+!LICENSE-NOTE.md
+!STATS.md
+!sv-diceware-7776.txt
+!sv-diceware-7776.plain.txt
+!flagged.txt
+!review-candidates.txt
+!vetted-block.txt
+
+# Reproducible pipeline + tools
+!build_wordlist.py
+!blocklists.py
+!vet_workflow.js
+!gen_passphrase.py
+
+# Deliberately NOT tracked (matched by the leading `*`):
+#   saldo.xml          - 74 MB source lexicon, not redistributed (download from Språkbanken)
+#   vetted-seen.txt    - internal vetting-loop bookkeeping
+#   flagged-words.txt  - scratch input for human review batches
+#   english.txt        - unrelated scratch file
+#   __pycache__/, .claude/, vet/ - local/tooling artifacts
