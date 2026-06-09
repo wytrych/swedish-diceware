@@ -5,11 +5,8 @@
 of the **SALDO** morphological lexicon.
 
 - **Source:** SALDO, Språkbanken Text, University of Gothenburg.
-- **Source license:** Creative Commons Attribution (**CC BY 3.0**) — attribution
-  only, **no ShareAlike / no copyleft**.
-- Because CC BY imposes no ShareAlike obligation, this derivative may be released
-  under any license that preserves the required attribution. It is published
-  under **CC BY 4.0**.
+- **Source license:** Creative Commons Attribution (**CC BY 3.0**)
+- The curated list is published under **CC BY 4.0**.
 
 ### Attribution
 > Swedish Diceware Wordlist © 2026 Marcin Wolniewicz, licensed CC BY 4.0.
